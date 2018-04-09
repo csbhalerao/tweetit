@@ -13,6 +13,7 @@
 		61814F4B2079D05900A9E366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61814F4A2079D05900A9E366 /* Assets.xcassets */; };
 		61814F4E2079D05900A9E366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61814F4C2079D05900A9E366 /* LaunchScreen.storyboard */; };
 		61814F592079D05900A9E366 /* tweetItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61814F582079D05900A9E366 /* tweetItTests.swift */; };
+		61814F64207A3DB600A9E366 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61814F63207A3DB600A9E366 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		61814F542079D05900A9E366 /* tweetItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tweetItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61814F582079D05900A9E366 /* tweetItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tweetItTests.swift; sourceTree = "<group>"; };
 		61814F5A2079D05900A9E366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61814F63207A3DB600A9E366 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				61814F432079D05800A9E366 /* AppDelegate.swift */,
+				61814F63207A3DB600A9E366 /* HomeViewController.swift */,
 				61814F452079D05800A9E366 /* ViewController.swift */,
 				61814F472079D05900A9E366 /* Main.storyboard */,
 				61814F4A2079D05900A9E366 /* Assets.xcassets */,
@@ -201,6 +204,7 @@
 			files = (
 				61814F462079D05800A9E366 /* ViewController.swift in Sources */,
 				61814F442079D05800A9E366 /* AppDelegate.swift in Sources */,
+				61814F64207A3DB600A9E366 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
